@@ -16,7 +16,11 @@
 # Force build fail on modpost warning
 KBUILD_MODPOST_FAIL_ON_WARNINGS := y
 
+<<<<<<< HEAD
         # for fmradio options
+=======
+# for fmradio options
+>>>>>>> c3f721bf9787ea84c1c9d3d07b077858c09377a9
          MTK_PLATFORM_ID := $(patsubst CONSYS_%,%,$(subst ",,$(CONFIG_MTK_COMBO_CHIP)))
          ifneq (,$(filter $(CONFIG_MTK_COMBO_CHIP), "CONSYS_6885" "CONSYS_6893"))
              export CFG_BUILD_CONNAC2=true
