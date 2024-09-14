@@ -22,7 +22,7 @@ udc_lib-y += \
     udc_lib_main.o
 
 ccflags-y += \
-    -DZ_SOLO
+    -DZ_SOLO -Wno-deprecated-non-prototype -Wno-strict-prototypes
 
 ccflags-y += \
 	-I$(srctree)/drivers/misc/mediatek/eccci/udc \
