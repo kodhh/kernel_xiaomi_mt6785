@@ -2,9 +2,9 @@ name: Build whyred Kernel with Clang
 
 on:
   push:
-    branches: [ KCUF_419 ]
+    branches: [ udc ]
   pull_request:
-    branches: [ KCUF_419 ]
+    branches: [ udc ]
 
 jobs:
   build:
