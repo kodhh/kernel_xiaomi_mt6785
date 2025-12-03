@@ -11,6 +11,8 @@
 # GNU General Public License for more details.
 #
 
+ccflags += -Wno-deprecated-non-prototype
+
 obj-m += udc_lib.o
 
 udc_lib-y += \
