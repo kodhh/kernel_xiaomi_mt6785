@@ -40,17 +40,17 @@ jobs:
     - name: Upload Build Artifacts1
       uses: actions/upload-artifact@v4
       with:
-        name: kernel-build
+        name: Image.gz-dtb
         path: out/arch/arm64/boot/Image.gz-dtb
 
     - name: Upload Build Artifacts2
       uses: actions/upload-artifact@v4
       with:
-        name: kernel-build
+        name: fpsgo.ko
         path: out/drivers/misc/mediatek/fpsgo_cus/fpsgo.ko
 
     - name: Upload Build Artifacts3
       uses: actions/upload-artifact@v4
       with:
-        name: kernel-build
+        name: udc_lib.ko
         path: out/drivers/misc/mediatek/udc/udc_lib.ko
