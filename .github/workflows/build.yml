@@ -41,8 +41,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: kernel-build
-        path:｜ 
-out/.config
-out/arch/arm64/boot/Image.gz-dtb
-out/drivers/misc/mediatek/fpsgo_cus/fpsgo.ko
-out/drivers/misc/mediatek/udc/udc_lib.ko
+        path: out/.config,out/arch/arm64/boot/Image.gz-dtb,out/drivers/misc/mediatek/fpsgo_cus/fpsgo.ko,out/drivers/misc/mediatek/udc/udc_lib.ko
